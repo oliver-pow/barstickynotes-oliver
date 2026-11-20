@@ -1,0 +1,18 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run GNOME Devkit",
+            "type": "node",
+            "request": "launch",
+            "runtimeExecutable": "/usr/bin/flatpak-spawn",
+            "runtimeArgs": [
+                "--host",
+                "bash",
+                "${workspaceFolder}/dev.sh"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}

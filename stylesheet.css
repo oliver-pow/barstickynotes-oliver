@@ -1,1 +1,92 @@
-/* Add your custom extension styling here */
+
+/* Top bar note buttons */
+.panel-button.sticky-note-button {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 0 7px;
+}
+
+.panel-button.sticky-note-button:hover,
+.panel-button.sticky-note-button:active {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* Colored circles */
+.sticky-note-dot {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+    max-width: 14px;
+    max-height: 14px;
+    border-radius: 999px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+/* Plus button */
+.sticky-note-plus {
+    font-size: 22px;
+    padding: 0 8px;
+}
+
+/* Transparent popup */
+.sticky-note-menu,
+.sticky-note-menu .popup-menu-content {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+}
+
+/* Remove default menu item appearance */
+.sticky-note-item {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+/* Note card */
+.sticky-note-card {
+    border-radius: 12px;
+    padding: 12px;
+    min-width: 280px;
+    spacing: 8px;
+}
+
+/* Toolbar */
+.sticky-note-toolbar {
+    spacing: 6px;
+    padding-bottom: 5px;
+}
+
+/* Toolbar buttons */
+.sticky-note-tool-button {
+    color: #493B13;
+    background-color: rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+    padding: 4px 9px;
+    border: none;
+}
+
+.sticky-note-tool-button:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Text editor */
+.sticky-note-text {
+    color: #302800;
+    font-size: 13px;
+    padding: 4px;
+    background-color: transparent;
+}
+
+/* Scroll area */
+.sticky-note-scroll {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
