@@ -1,0 +1,8 @@
+{
+  "name": "Stickynotes",
+  "description": "Expandable stickynotes that live on the GNOME top bar",
+  "uuid": "barstickynotes@oliver",
+  "shell-version": [
+    "50"
+  ]
+}
